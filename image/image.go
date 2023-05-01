@@ -116,8 +116,6 @@ func RefreshImage(interval time.Duration) {
 			}
 			loadImage()
 			fmt.Println("Image refreshed.")
-		} else {
-			fmt.Println("No new images found.")
 		}
 	}
 }

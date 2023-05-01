@@ -39,7 +39,7 @@ var (
 )
 
 func main() {
-	go image.RefreshImage(1 * time.Minute)
+	go image.RefreshImage(5 * time.Minute)
 	parseFlags()
 	startHTTPServer()
 }
